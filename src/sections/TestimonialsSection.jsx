@@ -9,7 +9,16 @@ const TestimonialCard = memo(function TestimonialCard({ testimonial }) {
       <p className="test-text">"{testimonial.text}"</p>
       <div className="test-author">
         <div className="test-avatar">
-          <img className="test-media" src={testimonial.imageUrl} alt={testimonial.name} loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+          <img
+            className="test-media"
+            src={testimonial.imageUrl}
+            alt={testimonial.name}
+            width="104"
+            height="104"
+            loading="lazy"
+            decoding="async"
+            referrerPolicy="no-referrer"
+          />
         </div>
         <div>
           <div className="test-name">{testimonial.name}</div>
@@ -23,7 +32,7 @@ const TestimonialCard = memo(function TestimonialCard({ testimonial }) {
 export default function TestimonialsSection() {
   return (
     <>
-      <SectionHeader label="Depoimentos" title="O que nossas clientes dizem" subtitle="Histórias reais de quem confia no nosso cuidado." />
+      <SectionHeader label="Depoimentos" title="Clientes que confiaram no processo" subtitle="Relatos de quem buscou cuidado, segurança e naturalidade." />
 
       <div className="test-grid">
         {testimonials.map((item) => (

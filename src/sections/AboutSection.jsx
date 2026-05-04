@@ -10,6 +10,8 @@ export default function AboutSection() {
             className="about-photo"
             src="https://i.pinimg.com/1200x/ab/fe/07/abfe078be97eab73bd51d6114da1da3d.jpg"
             alt="Profissional da clínica estética em atendimento"
+            width="800"
+            height="800"
             loading="lazy"
             decoding="async"
           />
@@ -41,29 +43,29 @@ export default function AboutSection() {
           label="Sobre a clínica"
           title={
             <>
-              Beleza que nasce do cuidado
+              Cuidado estético com
               <br />
-              e da <span className="accent">confiança.</span>
+              critério e <span className="accent">naturalidade.</span>
             </>
           }
           align="left"
         />
         <p>
-          Há mais de 8 anos, nossa missão é cuidar de pessoas, realizando sua beleza natural com segurança, ética e resultados que respeitam a individualidade de cada uma.
+          Há mais de 8 anos, unimos escuta, técnica e planejamento para indicar o tratamento certo para cada rosto.
         </p>
-        <p>Aqui, você encontra acolhimento, escuta e tratamentos personalizados para você se sentir ainda melhor em sua própria pele.</p>
+        <p>O objetivo é simples: valorizar seus traços com segurança, sem exageros e com orientação em cada etapa.</p>
         <div className="about-badges">
           <div className="about-badge">
             <div className="about-badge-icon">
               <ShieldCheckIcon />
             </div>
-            <span>Atendimento humanizado</span>
+            <span>Atendimento individual</span>
           </div>
           <div className="about-badge">
             <div className="about-badge-icon">
               <AwardIcon />
             </div>
-            <span>Profissional certificada</span>
+            <span>Protocolos seguros</span>
           </div>
         </div>
       </div>

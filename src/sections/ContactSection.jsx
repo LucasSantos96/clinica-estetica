@@ -51,7 +51,7 @@ export default function ContactSection() {
 
   return (
     <>
-      <SectionHeader label="Fale conosco" title="Estamos aqui para você" subtitle="Entre em contato pelo WhatsApp ou venha nos visitar." />
+      <SectionHeader label="Fale conosco" title="Agende sua avaliação" subtitle="Fale pelo WhatsApp ou veja como chegar." />
 
       <div className="contact-grid">
         <div>

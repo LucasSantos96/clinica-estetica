@@ -663,9 +663,11 @@ section {
 .result-labels {
   display: flex;
   gap: 6px;
+  justify-content: space-between;
   position: absolute;
   bottom: 14px;
   left: 14px;
+  right: 14px;
   z-index: 2;
 }
 

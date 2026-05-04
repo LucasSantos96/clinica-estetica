@@ -11,7 +11,7 @@ export default function FooterSection() {
           </svg>
           Clínica estética
         </div>
-        <p className="footer-tagline">Cuidado, beleza e bem-estar para realizar o que há de melhor em você.</p>
+        <p className="footer-tagline">Estética facial segura, personalizada e natural.</p>
       </div>
 
       <div className="footer-col">

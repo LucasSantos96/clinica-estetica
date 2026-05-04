@@ -8,7 +8,15 @@ const ServiceCard = memo(function ServiceCard({ service }) {
   return (
     <article className="service-card reveal">
       <div className={`service-card-img ${service.imageClass}`}>
-        <img className="service-card-photo" src={service.imageUrl} alt={service.title} loading="lazy" decoding="async" />
+        <img
+          className="service-card-photo"
+          src={service.imageUrl}
+          alt={service.title}
+          width="800"
+          height="640"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
       <div className="service-card-body">
         <div className="service-icon">
@@ -28,12 +36,12 @@ export default function ServicesSection() {
         label="Nossos serviços"
         title={
           <>
-            Soluções estéticas para realçar
+            Tratamentos para valorizar
             <br />
-            sua beleza de forma segura
+            seus traços
           </>
         }
-        subtitle="Cada tratamento é pensado com técnica, cuidado e total respeito pela sua individualidade."
+        subtitle="Escolha o cuidado ideal com orientação profissional."
       />
 
       <div className="services-grid">

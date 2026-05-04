@@ -56,11 +56,11 @@ function App() {
             <span className="cta-accent">começa agora</span>
           </h2>
           <p className="cta-sub reveal">
-            Agende pelo WhatsApp e dê o primeiro passo para realizar sua beleza com segurança e leveza.
+            Agende uma avaliação pelo WhatsApp e receba uma indicação personalizada.
           </p>
           <a href={whatsappUrl} className="btn-white reveal" target="_blank" rel="noopener noreferrer">
             <WhatsAppIcon className="button-icon" />
-            Agendar agora
+            Agendar avaliação
           </a>
         </section>
 
@@ -147,7 +147,7 @@ function Navbar() {
   return (
     <nav id="navbar" className={scrolled ? 'scrolled' : ''}>
       <a href="#home" className="logo" aria-label="Clínica estética">
-        <img className="logo-icon" src="/favicon.png" alt="" aria-hidden="true" />
+        <img className="logo-icon" src="/favicon.png" alt="" aria-hidden="true" width="32" height="32" />
         Clínica estética
       </a>
 
@@ -219,7 +219,7 @@ function Hero() {
       </div>
 
       <div className="hero-content">
-        <div className="hero-tag anim anim-d1">Cuidado & beleza natural</div>
+        <div className="hero-tag anim anim-d1">Estética facial com resultado natural</div>
         <h1 className="anim anim-d2">
           Realce sua beleza
           <br />
@@ -228,12 +228,12 @@ function Hero() {
           leveza e <span className="accent">naturalidade</span>
         </h1>
         <p className="hero-sub anim anim-d3">
-          Tratamentos estéticos e cuidados faciais pensados para valorizar sua autoestima com um atendimento acolhedor e personalizado.
+          Tratamentos personalizados para suavizar sinais, valorizar seus traços e cuidar da sua pele com segurança.
         </p>
         <div className="hero-actions anim anim-d4">
           <a href={whatsappUrl} className="btn-primary" target="_blank" rel="noopener noreferrer">
             <WhatsAppIcon className="button-icon" />
-            Agendar WhatsApp
+            Agendar avaliação
           </a>
           <a href="#resultados" className="btn-outline">
             Ver resultados

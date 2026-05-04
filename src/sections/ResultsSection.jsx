@@ -6,7 +6,7 @@ const ResultCard = memo(function ResultCard({ imageUrl, alt }) {
   return (
     <article className="result-card reveal">
       <div className="result-placeholder">
-        <img className="result-photo" src={imageUrl} alt={alt} loading="lazy" decoding="async" />
+        <img className="result-photo" src={imageUrl} alt={alt} width="600" height="800" loading="lazy" decoding="async" />
       </div>
       <div className="result-divider" />
       <div className="result-labels">
@@ -128,12 +128,12 @@ export default function ResultsSection() {
         label="Resultados reais"
         title={
           <>
-            Transformações que refletem
+            Antes e depois
             <br />
-            cuidado, técnica e naturalidade
+            reais
           </>
         }
-        subtitle="Cada resultado é único — como cada cliente."
+        subtitle="Resultados variam conforme cada pessoa, técnica e indicação."
       />
 
       <ResultsCarousel items={results} />

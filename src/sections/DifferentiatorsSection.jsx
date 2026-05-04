@@ -21,14 +21,8 @@ export default function DifferentiatorsSection() {
     <>
       <SectionHeader
         label="Nossos diferenciais"
-        title={
-          <>
-            Tudo pensado para você ter
-            <br />
-            a melhor experiência
-          </>
-        }
-        subtitle="Do agendamento ao pós-tratamento, cada detalhe importa."
+        title="Por que escolher a clínica"
+        subtitle="Um processo claro, seguro e pensado para resultados naturais."
       />
 
       <div className="diff-grid">

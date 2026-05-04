@@ -279,7 +279,7 @@
     background: linear-gradient(160deg, var(--beige-dark) 0%, var(--coral-pale) 100%);
   }
   .result-labels {
-    display: flex; gap: 6px; position: absolute; bottom: 14px; left: 14px;
+    display: flex; gap: 6px; justify-content: space-between; position: absolute; bottom: 14px; left: 14px; right: 14px;
   }
   .result-tag {
     font-size: 10px; font-weight: 500; padding: 4px 10px; border-radius: 999px;
@@ -531,7 +531,7 @@
     <a href="#" aria-label="Instagram">
       <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
     </a>
-    <a href="#" aria-label="WhatsApp">
+    <a href="https://wa.me/5522981073895?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20est%C3%A9tica." aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
       <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
     </a>
   </div>
@@ -555,19 +555,19 @@
   </svg>
 
   <div class="hero-content">
-    <div class="hero-tag anim anim-d1">Cuidado & beleza natural</div>
+    <div class="hero-tag anim anim-d1">Estética facial com resultado natural</div>
     <h1 class="anim anim-d2">
       Realce sua beleza<br>
       com cuidado,<br>
       leveza e <span class="accent">naturalidade</span>
     </h1>
     <p class="hero-sub anim anim-d3">
-      Tratamentos estéticos e cuidados faciais pensados para valorizar sua autoestima com um atendimento acolhedor e personalizado.
+      Tratamentos personalizados para suavizar sinais, valorizar seus traços e cuidar da sua pele com segurança.
     </p>
     <div class="hero-actions anim anim-d4">
-      <a href="#contato" class="btn-primary">
+      <a href="https://wa.me/5522981073895?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20est%C3%A9tica." class="btn-primary" target="_blank" rel="noopener noreferrer">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
-        Agendar WhatsApp
+        Agendar avaliação
       </a>
       <a href="#resultados" class="btn-outline">Ver resultados</a>
     </div>
@@ -607,8 +607,8 @@
 <!-- SERVICES -->
 <section class="services" id="servicos">
   <div class="section-label reveal">Nossos serviços</div>
-  <h2 class="section-title reveal">Soluções estéticas para realçar<br>sua beleza de forma segura</h2>
-  <p class="section-sub reveal">Cada tratamento é pensado com técnica, cuidado e total respeito pela sua individualidade.</p>
+  <h2 class="section-title reveal">Tratamentos para valorizar<br>seus traços</h2>
+  <p class="section-sub reveal">Escolha o cuidado ideal com orientação profissional.</p>
 
   <div class="services-grid">
     <div class="service-card reveal">
@@ -622,7 +622,7 @@
           <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10"/><path d="M12 8v4l3 3"/></svg>
         </div>
         <h3>Botox</h3>
-        <p>Suaviza linhas de expressão e rejuvenece o rosto com naturalidade e precisão.</p>
+        <p>Suaviza linhas de expressão mantendo um resultado leve e natural.</p>
       </div>
     </div>
     <div class="service-card reveal">
@@ -636,7 +636,7 @@
           <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>
         </div>
         <h3>Preenchimento</h3>
-        <p>Harmoniza traços com naturalidade, devolvendo volume e contorno ao rosto.</p>
+        <p>Repõe volume e harmoniza contornos com planejamento individual.</p>
       </div>
     </div>
     <div class="service-card reveal">
@@ -650,7 +650,7 @@
           <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
         <h3>Limpeza de pele</h3>
-        <p>Renova e devolve o viço da pele com protocolos profissionais e resultado imediato.</p>
+        <p>Remove impurezas, melhora a textura e devolve viço à pele.</p>
       </div>
     </div>
     <div class="service-card reveal">
@@ -664,7 +664,7 @@
           <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
         </div>
         <h3>Bioestimulador</h3>
-        <p>Estimula colágeno e firmeza, promovendo rejuvenescimento natural e duradouro.</p>
+        <p>Estimula colágeno para mais firmeza e qualidade de pele.</p>
       </div>
     </div>
   </div>
@@ -673,8 +673,8 @@
 <!-- RESULTS -->
 <section id="resultados" style="background: white;">
   <div class="section-label reveal">Resultados reais</div>
-  <h2 class="section-title reveal">Transformações que refletem<br>cuidado, técnica e naturalidade</h2>
-  <p class="section-sub reveal">Cada resultado é único — como cada cliente.</p>
+  <h2 class="section-title reveal">Antes e depois<br>reais</h2>
+  <p class="section-sub reveal">Resultados variam conforme cada pessoa, técnica e indicação.</p>
 
   <div class="results-grid">
     <div class="result-card reveal">
@@ -728,18 +728,18 @@
   <div class="about-content reveal">
     <div class="section-label" style="justify-content: flex-start; text-align: left;">Sobre a clínica</div>
     <h2 class="section-title" style="text-align:left; margin-bottom: 20px;">
-      Beleza que nasce do cuidado<br>e da <span class="accent">confiança.</span>
+      Cuidado estético com<br>critério e <span class="accent">naturalidade.</span>
     </h2>
-    <p>Há mais de 8 anos, nossa missão é cuidar de pessoas, realizando sua beleza natural com segurança, ética e resultados que respeitam a individualidade de cada uma.</p>
-    <p>Aqui, você encontra acolhimento, escuta e tratamentos personalizados para você se sentir ainda melhor em sua própria pele.</p>
+    <p>Há mais de 8 anos, unimos escuta, técnica e planejamento para indicar o tratamento certo para cada rosto.</p>
+    <p>O objetivo é simples: valorizar seus traços com segurança, sem exageros e com orientação em cada etapa.</p>
     <div class="about-badges">
       <div class="about-badge">
         <div class="about-badge-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <span>Atendimento humanizado</span>
+        <span>Atendimento individual</span>
       </div>
       <div class="about-badge">
         <div class="about-badge-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
-        <span>Profissional certificada</span>
+        <span>Protocolos seguros</span>
       </div>
     </div>
   </div>
@@ -748,37 +748,37 @@
 <!-- DIFFERENTIALS -->
 <section id="diferenciais" style="background: white;">
   <div class="section-label reveal">Nossos diferenciais</div>
-  <h2 class="section-title reveal">Tudo pensado para você ter<br>a melhor experiência</h2>
-  <p class="section-sub reveal">Do agendamento ao pós-tratamento, cada detalhe importa.</p>
+  <h2 class="section-title reveal">Por que escolher a clínica</h2>
+  <p class="section-sub reveal">Um processo claro, seguro e pensado para resultados naturais.</p>
 
   <div class="diff-grid">
     <div class="diff-card reveal">
       <div class="diff-icon">
         <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       </div>
-      <h3>Atendimento personalizado</h3>
-      <p>Planos feitos sob medida para as suas necessidades e objetivos.</p>
+      <h3>Avaliação individual</h3>
+      <p>Cada indicação começa com escuta, análise facial e plano personalizado.</p>
     </div>
     <div class="diff-card reveal">
       <div class="diff-icon">
         <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
       </div>
-      <h3>Equipamentos modernos</h3>
-      <p>Tecnologia de ponta para garantir resultados seguros e superiores.</p>
+      <h3>Técnica e segurança</h3>
+      <p>Protocolos definidos com critério, produtos certificados e orientação clara.</p>
     </div>
     <div class="diff-card reveal">
       <div class="diff-icon">
         <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
       </div>
-      <h3>Ambiente confortável</h3>
-      <p>Espaço acolhedor e pensado para o seu bem-estar desde a chegada.</p>
+      <h3>Atendimento acolhedor</h3>
+      <p>Um processo tranquilo, do primeiro contato ao pós-procedimento.</p>
     </div>
     <div class="diff-card reveal">
       <div class="diff-icon">
         <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
       </div>
-      <h3>Protocolos seguros</h3>
-      <p>Segurança em cada etapa do seu tratamento, com produtos certificados.</p>
+      <h3>Resultados naturais</h3>
+      <p>O foco é valorizar seus traços, não mudar quem você é.</p>
     </div>
   </div>
 </section>
@@ -786,13 +786,13 @@
 <!-- TESTIMONIALS -->
 <section class="testimonials" id="depoimentos">
   <div class="section-label reveal">Depoimentos</div>
-  <h2 class="section-title reveal">O que nossas clientes dizem</h2>
-  <p class="section-sub reveal">Histórias reais de quem confia no nosso cuidado.</p>
+  <h2 class="section-title reveal">Clientes que confiaram no processo</h2>
+  <p class="section-sub reveal">Relatos de quem buscou cuidado, segurança e naturalidade.</p>
 
   <div class="test-grid">
     <div class="test-card reveal">
       <div class="test-stars">★★★★★</div>
-      <p class="test-text">"Cada consulta me surpreende. Me sinto ouvida e cuidada. Os resultados foram incríveis e muito naturais!"</p>
+      <p class="test-text">"Gostei da avaliação e do cuidado em explicar cada etapa. O resultado ficou leve e natural."</p>
       <div class="test-author">
         <div class="test-avatar">JM</div>
         <div>
@@ -803,7 +803,7 @@
     </div>
     <div class="test-card reveal">
       <div class="test-stars">★★★★★</div>
-      <p class="test-text">"Simplesmente incrível! Ambiente carinhoso e acolhente. Recomendo para todas as minhas amigas!"</p>
+      <p class="test-text">"Me senti segura desde o primeiro contato. O atendimento foi calmo, claro e acolhedor."</p>
       <div class="test-author">
         <div class="test-avatar">CS</div>
         <div>
@@ -814,7 +814,7 @@
     </div>
     <div class="test-card reveal">
       <div class="test-stars">★★★★★</div>
-      <p class="test-text">"A clínica é incrível! O cuidado com cada detalhe faz toda a diferença. Me sinto renovada sempre!"</p>
+      <p class="test-text">"O plano foi pensado para o meu rosto. Saí com a pele mais bonita, sem exageros."</p>
       <div class="test-author">
         <div class="test-avatar">FL</div>
         <div>
@@ -829,21 +829,21 @@
 <!-- CTA -->
 <section class="cta-section">
   <h2 class="section-title reveal" style="color:white; font-style:italic;">
-    Seu momento de cuidado<br>
-    <span style="color:rgba(255,255,255,0.75); font-style:normal;">começa agora</span>
+    Pronta para cuidar<br>
+    <span style="color:rgba(255,255,255,0.75); font-style:normal;">de você?</span>
   </h2>
-  <p class="cta-sub reveal">Agende pelo WhatsApp e dê o primeiro passo para realizar sua beleza com segurança e leveza.</p>
-  <a href="#" class="btn-white reveal">
+  <p class="cta-sub reveal">Agende uma avaliação pelo WhatsApp e receba uma indicação personalizada.</p>
+  <a href="https://wa.me/5522981073895?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20est%C3%A9tica." class="btn-white reveal" target="_blank" rel="noopener noreferrer">
     <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
-    Agendar agora
+    Agendar avaliação
   </a>
 </section>
 
 <!-- CONTACT -->
 <section id="contato">
   <div class="section-label reveal">Fale conosco</div>
-  <h2 class="section-title reveal">Estamos aqui para você</h2>
-  <p class="section-sub reveal">Entre em contato pelo WhatsApp ou venha nos visitar.</p>
+  <h2 class="section-title reveal">Agende sua avaliação</h2>
+  <p class="section-sub reveal">Fale pelo WhatsApp ou veja como chegar.</p>
 
   <div class="contact-grid">
     <div>
@@ -896,7 +896,7 @@
         </svg>
         Clínica estética
       </div>
-      <p class="footer-tagline">Cuidado, beleza e bem-estar para realizar o que há de melhor em você.</p>
+      <p class="footer-tagline">Estética facial segura, personalizada e natural.</p>
     </div>
     <div class="footer-col">
       <h4>Navegação</h4>
@@ -915,7 +915,7 @@
         <a href="#" aria-label="Instagram">
           <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
         </a>
-        <a href="#" aria-label="WhatsApp">
+        <a href="https://wa.me/5522981073895?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20est%C3%A9tica." aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
           <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
         </a>
       </div>
